@@ -1,0 +1,24 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    height: 718px;
+    width: 375px;
+    border: 1px solid gray;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    height: 44px;
+    margin-top: 16px;
+}
+
+.box2 { 
+    background-image: url(images/header-shapes-mobile.svg); 
+    height: 587.15px;
+}
