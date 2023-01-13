@@ -2,10 +2,8 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="images/logo-White.png" alt="logo" width="140"  height="auto" />
+  <img src="images/logo-White.png" alt="logo" width="160"  height="auto" />
   <br/>
-
-  <h3><b>Samson portfolio</b></h3>
 
 </div>
 
@@ -35,48 +33,26 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Mobile First html/css of my portfolio website
 
-**[your_project__name]** is a...
+**[Portfolio setup and mobile first]** is the web development of the Figma design i chose.
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">html & css</a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack">html & css</a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+> html and css
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Turning Figma design into web page
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Nav bar]**
+- **[About me section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +62,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://github.com/SamTush/Profolio-setup-and-mibile-first.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +70,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> Clone the repo and contribate to the site.
 
 To get a local copy up and running, follow these steps.
 
@@ -102,75 +78,33 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+Internet connection to clone the project
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/SamTush/Profolio-setup-and-mibile-first.git
 ```
---->
 
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+Install this project with: VS code or any other code editor.
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+To run the project: Go live in VS or get a live server for your code editor.
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+To run tests, run linter:
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+You can deploy this project using: github
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,17 +114,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Samson**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/SamTush)
+- Twitter: [@twitterhandle](https://twitter.com/samo44o)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/samson-tush-4a7386216/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,11 +126,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Build a complete portfolio website.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Add more images and icons]**
+- [ ] **[Add more content]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,7 +149,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project, feel free to comment and contribute to it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -232,7 +159,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microverse for the wonderful opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -242,13 +169,9 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[What is this website?]**
 
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+  - [It a portfolio website to show what i can do.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
