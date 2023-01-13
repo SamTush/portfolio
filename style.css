@@ -5,10 +5,10 @@ html {
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 h1 {
@@ -16,11 +16,11 @@ h1 {
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
-    font-style: normal;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 300;
+ font-size: 16px;
+ line-height: 24px;
+ font-style: normal;
 }
 
 header {
@@ -35,8 +35,8 @@ header {
 }
 
 .box1 {
-    margin-top: 15px;
-    padding: 0 25px;
+ margin-top: 15px;
+ padding: 0 25px;
 }
 
 .flex-nav ul {
