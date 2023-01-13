@@ -13,6 +13,8 @@ body {
 
 h1 {
   font-family: 'Poppins', sans-serif;
+  color: #172b4d;
+  line-height: 52px;
 }
 
 p {
@@ -26,7 +28,6 @@ p {
 header {
   height: 718px;
   width: 375px;
-  border: 1px solid gray;
 }
 
 .wrapper {
@@ -59,7 +60,7 @@ header {
 .box2 {
   background-image: url(images/header-shapes-mobile.svg);
   height: 587.15px;
-  margin-top: 16px;
+  margin-top: 12px;
   padding: 2px 20px;
 }
 
