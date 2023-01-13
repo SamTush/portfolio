@@ -1,87 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap'); 
 
-html {
-  box-sizing: border-box;
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
-  color: #172b4d;
-  line-height: 52px;
+ font-family: 'Poppins', sans-serif;
+ color: #172b4d;
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 40px;
+ line-height: 52px;
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    color: #344563;
 }
 
-header {
-  height: 718px;
-  width: 375px;
-}
 
 .wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .box1 {
-  margin-top: 15px;
-  padding: 0 25px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 48px;
+}
+
+.flex-nav{
+ padding: 0 24px;
 }
 
 .flex-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 .flex-nav li {
-  flex: 14;
+ flex: 1;
 }
 
 .flex-nav .logo-img {
-  flex: 1;
-  display: flex;
-  align-items: center;
+    flex: 0;
+    display: flex;
+    align-items: center;
+
 }
 
+
 .box2 {
-  background-image: url(images/header-shapes-mobile.svg);
-  height: 587.15px;
-  margin-top: 12px;
-  padding: 2px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-image: url(images/header-shapes-mobile.svg);
+    height: 587.15px;
+    padding: 144px 24px;
 }
 
 .logo {
-  font-family: 'Poppins', sans-serif;
-  line-height: 20px;
-  color: #6070ff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070ff;
 }
 
 .h1 {
-  font-size: 40px;
+ font-size: 40px;
 }
 
 .connect {
-  color: #6070ff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
 }
 
 .icon {
-  padding: 4px;
+ margin-right: 12px;
 }
 
-.title {
-  padding-top: 40px;
+.social{
+ display: flex;
+ align-items: center;
+ margin-top: 2px;
+ list-style: none;
 }
+
