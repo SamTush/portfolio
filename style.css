@@ -11,11 +11,11 @@ body {
     align-items: center;
 }
 
-h1 { 
+h1 {
  font-family: 'Poppins', sans-serif;
 }
 
-p{
+p {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -34,7 +34,7 @@ header {
     margin: 0 auto;
 }
 
-.box1{
+.box1 {
     margin-top: 15px;
     padding: 0 25px;
 }
@@ -57,8 +57,8 @@ header {
 }
 
 
-.box2 { 
-    background-image: url(images/header-shapes-mobile.svg); 
+.box2 {
+    background-image: url(images/header-shapes-mobile.svg);
     height: 587.15px;
     margin-top: 16px;
     padding: 2px 20px;
