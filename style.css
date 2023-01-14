@@ -226,7 +226,7 @@ button {
 button a {
   font-family: 'Poppins';
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 font-size: 17px;
 line-height: 24px;
 display: flex;
@@ -234,4 +234,155 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.03em;
 color: #396DF2;
+}
+
+
+/* footer */
+section {
+  background-color: #ffffff;
+  border-top-right-radius: 60px;
+  padding: 24px;
+}
+
+.footer-text {
+  margin-top: 100px;
+}
+
+.footer-text p, .footer-text .social, .con{
+  margin-top: 12px;
+}
+
+.lang-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-lang a {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+flex-direction: row;
+align-items: center;
+color: #000000;
+}
+
+.lang-title img {
+  margin-left: 26px;
+}
+
+.lang {
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+}
+
+.javascript img, .html img, .css img {
+  display: flex;
+  margin-right: 16px;
+}
+
+.javascript, .html, .css {
+  display: flex;
+  background-color: #F7F7F9;
+  padding: 9px 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.lang a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.framework, .skills {
+  display: flex;
+  flex-direction: row;
+  margin-top: 36px;
+  margin-bottom: 23px;
+  padding: 0 20px;
+}
+
+hr {
+height: 1px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+background: #DFE1E6;
+}
+
+.frame img {
+  margin-left: auto;
+}
+
+.about {
+  margin-top: 114px;
+}
+
+/*contact*/
+.contact {
+  background-color: #6070FF;
+  border-top-left-radius: 60px;
+  background-image: url('images/contact.png');
+  width: 100%;
+}
+
+.text-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 24px;
+}
+
+.text-contact h2{
+  color: #ffffff;
+  margin-top: 103px;
+}
+
+.text-contact p {
+  margin-top: 12px;
+  color: #EBEBFF;
+}
+
+/*form*/
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  font-family: 'Poppins';
+  color: #172B4D;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+
+.form-div {
+margin-top: 28px;
+}
+
+.form-div button {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 8px;
+  margin: 8px 0;
 }
