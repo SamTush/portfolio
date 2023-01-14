@@ -118,7 +118,9 @@ header {
 }
 
 /* works section */
-.works {
+.container {
+  display: flex;
+  flex-direction: column;
   background-color: #ebebff;
   padding: 0 24px;
 }
