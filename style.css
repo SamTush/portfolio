@@ -23,11 +23,8 @@ h1 {
   line-height: 52px;
 }
 
-.hr {
+hr {
   height: 1px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
   background: #dfe1e6;
 }
 
