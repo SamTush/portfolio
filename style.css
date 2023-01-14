@@ -15,7 +15,6 @@ body {
 h1 {
   font-family: 'Poppins', sans-serif;
   color: #172b4d;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -31,7 +30,6 @@ p {
   color: #344563;
 }
 
-
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
@@ -44,7 +42,7 @@ p {
   height: 48px;
 }
 
-.flex-nav{
+.flex-nav {
   padding: 0 24px;
 }
 
@@ -65,7 +63,6 @@ p {
   align-items: center;
 
 }
-
 
 .box2 {
   display: flex;
@@ -89,7 +86,7 @@ p {
 }
 
 .connect {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -102,8 +99,8 @@ p {
 }
 
 .social {
- display: flex;
- align-items: center;
- margin-top: 2px;
- list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  list-style: none;
 }
