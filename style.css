@@ -38,7 +38,7 @@ p {
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .box1 {
@@ -73,7 +73,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background-color: #ffffff;
+  background-color: #fff;
   background-image: url(images/header-shapes-mobile.svg);
   height: 587.15px;
   padding: 144px 24px;
@@ -127,19 +127,22 @@ header {
   padding: 16px;
 }
 
-.grid-item-1, .grid-item-2, .grid-item-3, .grid-item-4{
-  background-color: #ffffff;
+.grid-item-1,
+.grid-item-2,
+.grid-item-3,
+.grid-item-4{
+  background-color: #fff;
   margin-top: 114px;
   border-radius: 16px;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-color: #172B4D;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
 }
 
 .text-box {
@@ -177,13 +180,13 @@ h4 {
 }
 
 .text-box p{
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 24px;
-color: #344563;
-margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 15px;
 }
 
 .small-btn-div {
@@ -194,24 +197,24 @@ margin-top: 15px;
 
 .small-btn-div a {
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0.03em;
-color: #6070FF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070FF;
 }
 
 .small-btn {
-padding-right: 8px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 4px 12px;
-background: #EBEBFF;
-border-radius: 8px;
-margin-right: 8px;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  background: #EBEBFF;
+  border-radius: 8px;
+  margin-right: 8px;
 }
 
 button {
@@ -225,15 +228,15 @@ button {
 
 button a {
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-color: #396DF2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396DF2;
 }
 
 
@@ -258,15 +261,15 @@ section {
 }
 
 .footer-lang a {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-display: flex;
-flex-direction: row;
-align-items: center;
-color: #000000;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #000;
 }
 
 .lang-title img {
@@ -317,11 +320,11 @@ color: #000000;
 }
 
 hr {
-height: 1px;
-left: 0px;
-right: 0px;
-bottom: 0px;
-background: #DFE1E6;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: #DFE1E6;
 }
 
 .frame img {
