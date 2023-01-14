@@ -23,6 +23,14 @@ h1 {
   line-height: 52px;
 }
 
+.hr {
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: #dfe1e6;
+}
+
 p {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -237,6 +245,7 @@ button {
   border-radius: 8px;
   background-color: #fff;
 }
+
 /* footer */
 section {
   background-color: #fff;
@@ -288,7 +297,9 @@ section {
   margin-right: 16px;
 }
 
-.javascript, .html, .css {
+.javascript,
+.html,
+.css {
   display: flex;
   background-color: #f7f7f9;
   padding: 9px 12px;
@@ -319,14 +330,6 @@ section {
   margin-top: 36px;
   margin-bottom: 23px;
   padding: 0 20px;
-}
-
-hr {
-  height: 1px;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  background: #dfe1e6;
 }
 
 .frame img {
