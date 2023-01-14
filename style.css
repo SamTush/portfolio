@@ -164,7 +164,7 @@ h2 {
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .dot {
@@ -179,7 +179,7 @@ h4 {
   color: #344563;
 }
 
-.text-box p{
+.text-box p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -193,6 +193,19 @@ h4 {
   display: flex;
   flex-direction: row;
   margin-top: 15px;
+}
+
+button a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
 }
 
 .small-btn-div a {
@@ -224,21 +237,6 @@ button {
   border-radius: 8px;
   background-color: #fff;
 }
-
-button a {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-}
-
-
 /* footer */
 section {
   background-color: #fff;
@@ -250,7 +248,9 @@ section {
   margin-top: 100px;
 }
 
-.footer-text p, .footer-text .social, .con{
+.footer-text p,
+.footer-text .social,
+.con {
   margin-top: 12px;
 }
 
@@ -281,14 +281,16 @@ section {
   margin-top: 36px;
 }
 
-.javascript img, .html img, .css img {
+.javascript img,
+.html img,
+.css img {
   display: flex;
   margin-right: 16px;
 }
 
 .javascript, .html, .css {
   display: flex;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   padding: 9px 12px;
   border-radius: 8px;
   margin-bottom: 12px;
@@ -310,7 +312,8 @@ section {
   flex-direction: column;
 }
 
-.framework, .skills {
+.framework,
+.skills {
   display: flex;
   flex-direction: row;
   margin-top: 36px;
@@ -334,7 +337,7 @@ hr {
   margin-top: 114px;
 }
 
-/*contact*/
+/* contact */
 .contact {
   background-color: #6070ff;
   border-top-left-radius: 60px;
@@ -349,7 +352,7 @@ hr {
   padding: 24px;
 }
 
-.text-contact h2{
+.text-contact h2 {
   color: #fff;
   margin-top: 103px;
 }
@@ -359,12 +362,13 @@ hr {
   color: #ebebff;
 }
 
-/*form*/
-input[type=text], select {
+/* form */
+input[type=text],
+select {
   width: 100%;
   padding: 12px 20px;
   font-family: 'Poppins', sans-serif;
-  color: #172B4D;
+  color: #172b4d;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -372,9 +376,8 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-
 .form-div {
-margin-top: 28px;
+  margin-top: 28px;
 }
 
 .form-div button {
