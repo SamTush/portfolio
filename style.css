@@ -408,3 +408,13 @@ textarea {
   border-radius: 8px;
   margin: 8px 0;
 }
+
+/* floating */
+.small-btn-float {
+  box-sizing: border-box;
+  float: left;
+}
+
+.float {
+  float: right;
+}
