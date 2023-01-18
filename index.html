@@ -219,16 +219,17 @@
                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
                 </p>
                 <div class="form-div">
-                    <form action="/action_page.php">
+                    <form action="https://formspree.io/f/xvongqly"
+                    method="POST">
                         <ul>
                             <li>
-                                <input type="text" id="fname" name="firstname" minlength="1" placeholder="Name">
+                                <input type="text" id="fname" name="firstname" maxlength="30" placeholder="Name" required />
                             </li>
                             <li>
-                                <input type="email" id="lname" name="lastname" placeholder="E-mail">
+                                <input type="email" id="lname" name="lastname" placeholder="E-mail" required />
                             </li>
                             <li>
-                                <textarea name="text" id="text" cols="30" rows="6" placeholder="Write your message here."></textarea>
+                                <textarea name="text" id="text" cols="30" rows="6" placeholder="Write your message here." maxlength="500" required ></textarea>
                             </li>
                             <li>
                                 <button><a>Get In Touch</a></button>
