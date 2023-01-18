@@ -10,7 +10,7 @@
 
 <body>
 
-    <header class="container">
+    <header class="container-top">
         <div class="wrapper">
             <nav class="flex-nav">
                 <ul class="box1">
@@ -175,7 +175,7 @@
                     <li><a><img src="images/Vector-2.svg" alt="Vector-2" class="icon"></a></li>
                     <li><a><img src="images/Vector-4.svg" alt="Vector-4" class="icon"></a></li>
                 </ul>
-                <button>Get my resume</button>
+                <button>my resume</button>
             </div>
             <div class="footer-lang">
                 <ul class="lang-title">
@@ -219,11 +219,22 @@
                 <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
                 </p>
                 <div class="form-div">
-                    <form action="/action_page.php">
-                      <input type="text" id="fname" name="firstname" placeholder="Yeremias">
-                      <input type="text" id="lname" name="lastname" placeholder="natajayanj14@gmail.com">
-                      <textarea name="text" id="text" cols="30" rows="10"></textarea>
-                      <button><a>Get In Touch</a></button>
+                    <form action="https://formspree.io/f/xvongqly"
+                    method="POST">
+                        <ul>
+                            <li>
+                                <input type="text" id="fname" name="firstname" maxlength="30" placeholder="Name" required />
+                            </li>
+                            <li>
+                                <input type="email" id="lname" name="lastname" placeholder="E-mail" required />
+                            </li>
+                            <li>
+                                <textarea name="text" id="text" cols="30" rows="6" placeholder="Write your message here." maxlength="500" required ></textarea>
+                            </li>
+                            <li>
+                                <button><a>Get In Touch</a></button>
+                            </li>
+                        </ul>
                     </form>
                 </div>
             </div>
