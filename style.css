@@ -202,7 +202,7 @@ h4 {
   margin-top: 15px;
 }
 
-button a {
+button {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -213,6 +213,12 @@ button a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: #fff;
 }
 
 .small-btn-div a {
@@ -234,15 +240,6 @@ button a {
   background: #ebebff;
   border-radius: 8px;
   margin-right: 8px;
-}
-
-button {
-  margin-top: 24px;
-  margin-bottom: 10px;
-  padding: 12px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  background-color: #fff;
 }
 
 button:focus {
@@ -315,6 +312,7 @@ section {
 .html,
 .css {
   display: flex;
+  align-items: center;
   background-color: #f7f7f9;
   padding: 9px 12px;
   border-radius: 8px;
@@ -380,7 +378,7 @@ section {
 }
 
 /* form */
-input[type=text],
+input,
 select {
   width: 100%;
   padding: 12px 20px;
@@ -407,4 +405,10 @@ textarea {
   width: 100%;
   border-radius: 8px;
   margin: 8px 0;
+  padding: 15px 38px 15px 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style: none;
 }
