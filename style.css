@@ -42,8 +42,10 @@ p {
   margin: 0 auto;
 }
 
-header {
+.container-top {
   background-color: #fff;
+  display: flex;
+  flex-direction: row;
 }
 
 .box1 {
@@ -55,21 +57,17 @@ header {
 
 .flex-nav {
   padding: 0 24px;
+  display: flex;
 }
 
 .flex-nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
-}
-
-.flex-nav li {
-  flex: 1;
+  flex-direction: row;
+  gap: 180px;
 }
 
 .flex-nav .logo-img {
-  flex: 0;
   display: flex;
   align-items: center;
 }
@@ -417,4 +415,7 @@ textarea {
 
 .float {
   float: right;
+}
+ .small-btn {
+  list-style: none;
 }
