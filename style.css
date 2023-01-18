@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #ebebff;
+  background-color: #e5e5e5;
   width: 375px;
 }
 
@@ -121,7 +121,7 @@ header {
 .container {
   display: flex;
   flex-direction: column;
-  background-color: #ebebff;
+  background-color: #e5e5e5;
   padding: 0 24px;
 }
 
@@ -354,10 +354,11 @@ section {
 
 /* contact */
 .contact {
-  background-color: #6070ff;
-  border-top-left-radius: 60px;
-  background-image: url('images/contact.png');
-  width: 100%;
+  background-image: url('images/contact.png'), url('images/Contact-me.png');
+  background-position: right top, left top;
+  background-size: 280px, auto;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #fff;
 }
 
 .text-contact {
