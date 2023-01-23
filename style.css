@@ -469,7 +469,7 @@ textarea {
   .box2 {
     background-image: url('images/Header-Icon.png');
     display: flex;
-    background-size:  100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     height: 721.46px;
     padding: 200px;
@@ -508,7 +508,7 @@ textarea {
   }
   
   footer p {
-    width: 569px;
+   width: 569px;
   }
 
   .text-box p,
