@@ -485,6 +485,10 @@ textarea {
   }
 
   /** works section **/
+  footer p {
+   width: 569px;
+  }
+  
   .desktop-image {
     display: flex !important;
     height: 448px;
@@ -505,10 +509,6 @@ textarea {
   #reverse {
     display: flex;
     flex-direction: row-reverse;
-  }
-  
-  footer p {
-   width: 569px;
   }
 
   .text-box p,
