@@ -143,12 +143,15 @@ ul {
 
 .grid-item {
   padding: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .grid-item-1,
 .grid-item-2,
 .grid-item-3,
 .grid-item-4 {
+  display: flex;
   background-color: #fff;
   margin-top: 114px;
   border-radius: 16px;
@@ -251,6 +254,10 @@ button {
   background: #ebebff;
   border-radius: 8px;
   margin-right: 8px;
+}
+
+.small-btn-dis {
+  display: none !important;
 }
 
 button:focus {
@@ -436,14 +443,19 @@ textarea {
   .desktop-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
   }
 
-  .desktop-menu {
-    display: flex;
-    justify-content: end;
-    width: 100%;
+  .desktop-nav li {
+    padding: 10px;
   }
 
   h1 {
@@ -506,12 +518,20 @@ textarea {
     margin-top: 24pxp;
   }
 
+  .small-btn-dis {
+    display: flex !important;
+  }
+
   .container {
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     width: 85%;
+  }
+
+  .grid-item-2 {
+    display: flex;
   }
 
   .grid-item {
