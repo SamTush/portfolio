@@ -424,7 +424,6 @@ textarea {
   font-family: 'Poppins', sans-serif;
 }
 
-
 @media screen and (min-width: 768px) {
   body {
     width: 100%;
@@ -470,7 +469,7 @@ textarea {
   .box2 {
     background-image: url('images/Header-Icon.png');
     display: flex;
-    background-size:  100%, auto;
+    background-size:  100%;
     background-repeat: no-repeat;
     height: 721.46px;
     padding: 200px;
@@ -511,7 +510,6 @@ textarea {
   footer p {
     width: 569px;
   }
-
 
   .text-box p,
   .text-box button {
