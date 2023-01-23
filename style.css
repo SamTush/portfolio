@@ -268,6 +268,10 @@ button:disabled {
   color: #5e6c84;
 }
 
+.desktop-image {
+  display: none !important;
+}
+
 /* footer */
 section {
   background-color: #fff;
@@ -426,18 +430,21 @@ textarea {
   }
 
   .box1 {
-    visibility: hidden;
+    display: none !important;
   }
 
   .desktop-nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    height: 48px;
   }
 
-  .container-top {
-    padding: 25px;
+  .desktop-menu {
+    display: flex;
+    justify-content: end;
+    width: 100%;
   }
-
 
   h1 {
     font-size: 48px;
@@ -472,8 +479,31 @@ textarea {
     margin-top: 14px;
   }
 
+  /** works section **/
+  .desktop-image {
+    display: flex !important;
+    height: 448px;
+  }
+
+  .text-box {
+    margin-left: 24px;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+
   .grid-container {
     display: grid;
+  }
+
+  .text-box p,
+  .text-box button {
+    margin-top: 32px;
+  }
+
+  .small-btn-div {
+    margin-top: 24pxp;
   }
 
   .container {
@@ -496,15 +526,6 @@ textarea {
 
   .img {
     display: flex;
-  }
-
-  .desktop-nav {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .desktop-image {
-    display: contents;
   }
 
   .bottom-white {
@@ -589,11 +610,6 @@ textarea {
   .form-div li {
     width: 447px;
   }
-}
-
-
-.desktop-image {
-  display: none;
 }
 
 .about {
