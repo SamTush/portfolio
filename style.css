@@ -282,6 +282,14 @@ section {
   padding: 24px;
 }
 
+.mobile {
+  display: flex !important;
+}
+
+.desktop {
+  display: none !important;
+}
+
 .footer-text {
   margin-top: 100px;
 }
@@ -625,8 +633,23 @@ textarea {
     justify-content: center;
   }
 
+  footer button {
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 142px;
+  }
+
   .form-div li {
     width: 447px;
+  }
+
+  .desktop {
+    display: flex !important;
+  }
+
+  .mobile {
+    display: none !important;
   }
 }
 
