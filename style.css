@@ -518,8 +518,8 @@ textarea {
     display: flex;
     flex-direction: row-reverse;
   }
-  
-   footer button {
+
+  footer button {
     display: flex;
     margin-left: auto;
     margin-right: auto;
