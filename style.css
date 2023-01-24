@@ -282,6 +282,14 @@ section {
   padding: 24px;
 }
 
+.mobile {
+  display: flex !important;
+}
+
+.desktop {
+  display: none !important;
+}
+
 .footer-text {
   margin-top: 100px;
 }
@@ -511,6 +519,13 @@ textarea {
     flex-direction: row-reverse;
   }
 
+  footer button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 142px;
+  }
+
   .text-box p,
   .text-box button {
     margin-top: 32px;
@@ -600,8 +615,6 @@ textarea {
   .about {
     margin-top: 114px;
     padding-bottom: 114px;
-    display: flex;
-    justify-content: center;
   }
 
   /** contact form **/
@@ -629,6 +642,14 @@ textarea {
 
   .form-div li {
     width: 447px;
+  }
+
+  .desktop {
+    display: flex !important;
+  }
+
+  .mobile {
+    display: none !important;
   }
 }
 
