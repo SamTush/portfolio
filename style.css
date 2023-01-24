@@ -518,6 +518,13 @@ textarea {
     display: flex;
     flex-direction: row-reverse;
   }
+  
+   footer button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 142px;
+  }
 
   .text-box p,
   .text-box button {
@@ -631,13 +638,6 @@ textarea {
   .form-div {
     display: flex;
     justify-content: center;
-  }
-
-  footer button {
-    display: flex; 
-    margin-left: auto;
-    margin-right: auto;
-    width: 142px;
   }
 
   .form-div li {
