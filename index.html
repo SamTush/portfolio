@@ -22,17 +22,25 @@
                     </li>
                 </ul>
             </nav>
+            <nav class="flex-nav desktop-nav">
+                <a class="logo">My logo</a>
+                <ul>
+                    <li>Portfolio</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
         </div>
     </header>
     <div class="bottom-round">
         <div class="box2">
             <div class="title">
-                <h1 class="h1">I'm Samson<br>Glad to see<br>you!</h1>
+                <h1 class="h1">I'm Samson <br> Glad to see you!</h1>
             </div>
             <div>
                 <p>I'm a software developer! I can help you build a product, feature or website
-                    look through some of my work and experience! If you like what you see and have
-                    a project you need coded, don't hestiate to contact me.
+                    look through <br> some of my work and experience! If you like what you see and have
+                    a project you need <br> coded, don't hestiate to contact me.
                 </p>
             </div>
             <a class="connect">
@@ -53,7 +61,8 @@
         <div class="grid-container">
             <div class="grid-item grid-item-1">
                 <div class="card-box">
-                    <img src="images/Snapshoot-Portfolio.png" alt="" srcset="">
+                    <img class="mobile-image" src="images/Snapshoot-Portfolio.png" alt="" srcset="">
+                    <img class="desktop-image" src="images/Snapshoot-PortfolioD.png" alt="" srcset="">
                 </div>
                 <div class="text-box">
                     <h2>Tonic</h2>
@@ -77,9 +86,10 @@
                     <button><a>See Project</a></button>
                 </div>
             </div>
-            <div class="grid-item grid-item-2">
+            <div  id="reverse" class="grid-item grid-item-2 row-reverse">
                 <div class="card-box">
-                    <img src="images/Snapshoot Portfolio.png" alt="" srcset="">
+                    <img class="mobile-image" src="images/Snapshoot-Portfolio2.png" alt="" srcset="">
+                    <img class="desktop-image" src="images/Snapshoot-Portfolio3.png" alt="" srcset="">
                 </div>
                 <div class="text-box">
                     <h2>Multi-Post<br>Stories</h2>
@@ -97,6 +107,7 @@
                     </div>
                     <ul class="small-btn-div">
                         <li class="small-btn"><a>html</a></li>
+                        <li class="small-btn small-btn-dis"><a>Ruby on rails</a></li>
                         <li class="small-btn"><a>css</a></li>
                         <li class="small-btn"><a>javaScript</a></li>
                     </ul>
@@ -105,10 +116,12 @@
             </div>
             <div class="grid-item grid-item-3">
                 <div class="card-box">
-                    <img src="images/Snapshoot Portfolio3.png" alt="" srcset="">
+                    <img class="mobile-image" src="images/Snapshoot Portfolio3.png" alt="" srcset="">
+                    <img class="desktop-image" src="images/Snapshoot-Portfolio4.png" alt="" srcset="">
                 </div>
                 <div class="text-box">
-                    <h2>Tonic</h2>
+                    <h2 class="mobile">Tonic</h2>
+                    <h2 class="desktop">Facebook 360</h2>
                     <div class="canopy">
                         <h4>CANOPY</h4>
                         <ul class="back">
@@ -123,18 +136,21 @@
                     </div>
                     <ul class="small-btn-div">
                         <li class="small-btn"><a>html</a></li>
+                        <li class="small-btn small-btn-dis"><a>Ruby on rails</a></li>
                         <li class="small-btn"><a>css</a></li>
                         <li class="small-btn"><a>javaScript</a></li>
                     </ul>
                     <button><a>See Project</a></button>
                 </div>
             </div>
-            <div class="grid-item grid-item-4">
+            <div  id="reverse" class="grid-item grid-item-4">
                 <div class="card-box">
-                    <img src="images/Snapshoot Portfolio4.png" alt="" srcset="">
+                    <img class="mobile-image" src="images/Snapshoot Portfolio4.png" alt="" srcset="">
+                    <img class="desktop-image" src="images/Snapshoot-Portfolio5.png" alt="" srcset="">
                 </div>
                 <div class="text-box">
-                    <h2>Multi-Post<br>Stories</h2>
+                    <h2 class="mobile">Multi-Post<br>Stories</h2>
+                    <h2 class="desktop">Uber Navigation</h2>
                     <div class="canopy">
                         <h4>CANOPY</h4>
                         <ul class="back">
@@ -149,6 +165,7 @@
                     </div>
                     <ul class="small-btn-div">
                         <li class="small-btn"><a>html</a></li>
+                        <li class="small-btn small-btn-dis"><a>Ruby on rails</a></li>
                         <li class="small-btn"><a>css</a></li>
                         <li class="small-btn"><a>javaScript</a></li>
                     </ul>
@@ -159,7 +176,7 @@
     </section>
 
     <section class="about">
-        <div class="grid-container">
+        <div class="grid-container bottom-white">
             <div class="footer-text">
                 <h2>About<br>Myself</h2>
                 <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -216,7 +233,7 @@
         <div class="contact">
             <div class="text-contact">
                 <h2>Contact me</h2>
-                <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+                <p class="footerp">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
                 </p>
                 <div class="form-div">
                     <form action="https://formspree.io/f/xvongqly"
@@ -232,11 +249,11 @@
                                 <textarea name="text" id="text" cols="30" rows="6" placeholder="Write your message here." maxlength="500" required ></textarea>
                             </li>
                             <li>
-                                <button><a>Get In Touch</a></button>
                             </li>
                         </ul>
                     </form>
                 </div>
+                <button><a>Get In Touch</a></button>
             </div>
         </div>
     </footer>
