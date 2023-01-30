@@ -62,7 +62,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://github.com/SamTush/Profolio-setup-and-mibile-first.git)
+- [Live Demo Link](https://samtush.github.io/Profolio-setup-and-mibile-first/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
