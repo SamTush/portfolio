@@ -560,6 +560,15 @@ textarea {
     display: grid;
     grid-template-columns: auto auto;
     gap: 12px;
+    justify-content: center;
+    max-width: 1209px;
+  }
+
+  .grid-item-center {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .card-box {
@@ -620,6 +629,8 @@ textarea {
   .about {
     margin-top: 114px;
     padding-bottom: 114px;
+    display: flex;
+    justify-content: center;
   }
 
   /** contact form **/
