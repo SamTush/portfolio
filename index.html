@@ -13,10 +13,10 @@
     <header class="container-top">
         <div class="wrapper">
             <ul class="hidden-menu" id="show">
-                <li class="close"><img src="images/Icon.png" alt="close icon"></li>
-                <li class="menu-1"><h3>Portfolio</h3></li>
-                <li class="menu-2"><h3>About</h3></li>
-                <li class="menu-3"><h3>Contact</h3></li>
+                <li class="close"><img id="close-icon" src="images/Icon.png" alt="close icon"></li>
+                <li id="click-a" class="menu-1"><a href="#portfolio">Portfolio</a></li>
+                <li id="click-b" class="menu-2"><a href="#about-myself">About</a></li>
+                <li id="click-c" class="menu-3"><a href="#contact-me">Contact</a></li>
             </ul>
             <nav class="flex-nav">
                 <ul class="box1">
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-    <section class="container">
+    <section id="portfolio" class="container">
         <div class="grid-container grid-item-center">
             <div class="grid-item grid-item-1">
                 <div class="card-box">
@@ -181,7 +181,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section id="about-myself" class="about">
         <div class="grid-container bottom-white">
             <div class="footer-text">
                 <h2>About<br>Myself</h2>
@@ -236,7 +236,7 @@
     </section>
 
     <footer>
-        <div class="contact">
+        <div class="contact" id="contact-me">
             <div class="text-contact">
                 <h2>Contact me</h2>
                 <p class="footerp">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it

@@ -102,10 +102,16 @@ ul {
 .menu-2,
 .menu-3 {
   padding: 16px;
+}
+
+.hidden-menu a {
   font-family: 'popping', sans-serif;
-  font-size: 29px;
+  font-weight: 500;
+  font-size: 38px;
   color: #fff;
   line-height: 44px;
+  text-decoration: none;
+  margin-left: 18px;
 }
 
 .close {
