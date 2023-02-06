@@ -86,7 +86,6 @@ ul {
   flex-direction: column;
   position: absolute;
   width: 100%;
-  margin-left: 0px;
   height: 100vh;
   opacity: 95%;
   display: none;
@@ -112,10 +111,6 @@ ul {
   line-height: 44px;
   text-decoration: none;
   margin-left: 18px;
-}
-
-.close {
-  margin-right: auto;
 }
 
 .box2 {
