@@ -94,7 +94,7 @@ ul {
 .close {
   display: flex;
   justify-content: end;
-  padding: 28px;
+  padding: 20px 26px;
 }
 
 .menu-1,
@@ -164,11 +164,83 @@ ul {
   flex-direction: column;
   background-color: #e5e5e5;
   padding: 0 24px;
+  position: relative;
 }
 
 .grid-container {
   display: grid;
   grid-auto-rows: minmax(552px, auto);
+}
+
+.popup-card {
+  background-color: rgb(255, 255, 255, .6);
+  width: 100%;
+  min-height: 100vh;
+  display: none;
+  padding: 24px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-popup {
+  background-color: #fff;
+  height: fit-content;
+  border-radius: 16px;
+  padding: 18px 16px;
+}
+
+.popup-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.popup-header img {
+  height: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 15px;
+}
+
+.popup-body img {
+  width: 100%;
+  margin: 18px 0px;
+}
+
+.popup-body hr {
+  margin-top: 12px;
+  opacity: 30%;
+}
+
+.popup-button {
+  display: flex;
+  gap: 14px;
+}
+
+.popup-button button {
+  width: 146px;
+  height: 48px;
+  display: flex;
+}
+
+.popup-button .icon2 {
+  background-image: url(images/Icon-2.png); 
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: 113px;
+}
+
+.popup-button .icon3 {
+  background-image: url(images/Group.png); 
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: 118px;
+}
+
+.icon2 a {
+  margin-left: 15px;
 }
 
 .grid-item {
@@ -470,6 +542,12 @@ textarea {
   display: none !important;
 }
 
+.target-desktop {
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   body {
     width: 100%;
@@ -533,6 +611,25 @@ textarea {
   /** works section **/
   .footerp {
     width: 569px;
+  }
+
+  .target-desktop {
+    display: flex;
+    justify-content: center;
+    display: none;
+  }
+
+  .popup-card-desktop {
+    width: 80%;
+  }
+
+  .popup-body-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popup-body-desktop .p-div-desktop {
+    width: 65%;
   }
 
   .desktop-image {
