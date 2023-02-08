@@ -13,10 +13,10 @@
     <header class="container-top">
         <div class="wrapper">
             <ul class="hidden-menu" id="show">
-                <li class="close"><img id="close-icon" src="images/Icon.png" alt="close icon"></li>
-                <li id="click-a" class="menu-1"><a href="#portfolio">Portfolio</a></li>
-                <li id="click-b" class="menu-2"><a href="#about-myself">About</a></li>
-                <li id="click-c" class="menu-3"><a href="#contact-me">Contact</a></li>
+                <li id=" close-icon" class="click close"><img src="images/Icon.png" alt="close icon"></li>
+                <li id=" click-a" class="click menu-1"><a href="#portfolio">Portfolio</a></li>
+                <li id=" click-b" class="click menu-2"><a href="#about-myself">About</a></li>
+                <li id=" click-c" class="click menu-3"><a href="#contact-me">Contact</a></li>
             </ul>
             <nav class="flex-nav">
                 <ul class="box1">
@@ -64,82 +64,8 @@
     </div>
 
     <section id="portfolio" class="container">
-        <!--popup mobile-->
-        <div class="target-mobile">
-            <div id="popup-card-menu" class="popup-card" data-target="p-1">
-                <div class="card-popup">
-                    <div class="popup-header">
-                        <h2>Tonic</h2>
-                        <img id="closing" src="images/IconB.png" alt="closing">
-                    </div>
-                    <div class="canopy">
-                        <h4>CANOPY</h4>
-                        <ul class="back">
-                            <li><img class="dot" src="images/Counter.png" alt="dot">Back End Dev</li>
-                            <li><img class="dot" src="images/Counter.png" alt="dot">2015</li>
-                        </ul>
-                    </div>
-                    <div class="popup-body">
-                        <img src="images/Snapshoot-Portfolio.png" alt="Snapshoot-Portfolio">
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                            but also the leap into electronic typesetting, remaining essent
-                        </p>
-                        <ul class="small-btn-div">
-                            <li class="small-btn"><a>html</a></li>
-                            <li class="small-btn"><a>css</a></li>
-                            <li class="small-btn"><a>javaScript</a></li>
-                        </ul>
-                        <hr>
-                        <div class="popup-button">
-                            <button class="icon2"><a>See live</a></button>
-                            <button class="icon3"><a>See Source</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="popup-card-menu" class="popup-card" data-target="p-2">
-                <div class="card-popup">
-                    <div class="popup-header">
-                        <h2>Tonic</h2>
-                        <img id="closing" src="images/IconB.png" alt="closing">
-                    </div>
-                    <div class="canopy">
-                        <h4>CANOPY</h4>
-                        <ul class="back">
-                            <li><img class="dot" src="images/Counter.png" alt="dot">Back End Dev</li>
-                            <li><img class="dot" src="images/Counter.png" alt="dot">2015</li>
-                        </ul>
-                    </div>
-                    <div class="popup-body">
-                        <img src="images/Snapshoot-Portfolio.png" alt="Snapshoot-Portfolio">
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                            but also the leap into electronic typesetting, remaining essent
-                        </p>
-                        <ul class="small-btn-div">
-                            <li class="small-btn"><a>html</a></li>
-                            <li class="small-btn"><a>css</a></li>
-                            <li class="small-btn"><a>javaScript</a></li>
-                        </ul>
-                        <hr>
-                        <div class="popup-button">
-                            <button class="icon2"><a>See live</a></button>
-                            <button class="icon3"><a>See Source</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!--pop up desktop-->
-        <div class="target-desktop">
+        <!--pop up desktop
+                <div class="target-desktop">
             <div id="popup-card-menu-desktop" class="popup-card-desktop" data-target="p-1">
                 <div class="card-popup">
                     <div class="popup-header">
@@ -186,9 +112,12 @@
                 </div>
             </div>
         </div>
+        
+        -->
+
 
         <div class="grid-container grid-item-center">
-            <div class="grid-item grid-item-1" data-name="p-1">
+            <div id="card-one" class="grid-item grid-item-1" data-name="p-1">
                 <div class="card-box">
                     <img class="mobile-image" src="images/Snapshoot-Portfolio.png" alt="Snapshoot-Portfolio" srcset="">
                     <img class="desktop-image" src="images/Snapshoot-PortfolioD.png" alt="Snapshoot-PortfolioD"
@@ -213,10 +142,10 @@
                         <li class="small-btn"><a>css</a></li>
                         <li class="small-btn"><a>javaScript</a></li>
                     </ul>
-                    <button class="button-one"><a>See Project</a></button>
+                    <button class="button-card button-one"><a>See Project</a></button>
                 </div>
             </div>
-            <div id="reverse-one" class="grid-item grid-item-2 row-reverse" data-name="p-2">
+            <div id="reverse-one card-two" class="grid-item grid-item-2 row-reverse" data-name="p-2">
                 <div class="card-box">
                     <img class="mobile-image" src="images/Snapshoot-Portfolio2.png" alt="Snapshoot-Portfolio2"
                         srcset="">
@@ -243,10 +172,10 @@
                         <li class="small-btn"><a>css</a></li>
                         <li class="small-btn"><a>javaScript</a></li>
                     </ul>
-                    <button class="button-two"><a>See Project</a></button>
+                    <button class="button-card button-two"><a>See Project</a></button>
                 </div>
             </div>
-            <div class="grid-item grid-item-3" data-name="p-3">
+            <div id="card-three" class="grid-item grid-item-3" data-name="p-3">
                 <div class="card-box">
                     <img class="mobile-image" src="images/Snapshoot Portfolio3.png" alt="Snapshoot-Portfolio5"
                         srcset="">
@@ -274,7 +203,7 @@
                         <li class="small-btn"><a>css</a></li>
                         <li class="small-btn"><a>javaScript</a></li>
                     </ul>
-                    <button class="button-three"><a>See Project</a></button>
+                    <button class="button-card button-three"><a>See Project</a></button>
                 </div>
             </div>
             <div id="reverse-two" class="grid-item grid-item-4"  data-name="p-4">
@@ -305,7 +234,7 @@
                         <li class="small-btn"><a>css</a></li>
                         <li class="small-btn"><a>javaScript</a></li>
                     </ul>
-                    <button class="button-four"><a>See Project</a></button>
+                    <button class="button-card button-four"><a>See Project</a></button>
                 </div>
             </div>
         </div>

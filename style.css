@@ -174,14 +174,22 @@ ul {
 
 .popup-card {
   background-color: rgb(255, 255, 255, .6);
-  width: 100%;
-  min-height: 100vh;
+  width: 100vw;
+  height: 110vh;
   display: none;
   padding: 24px 20px;
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-top: 614px;
+}
+
+.popup-card-two {
+  top: 78%;
+}
+
+.popup-card-three {
+  top: 98%;
 }
 
 .card-popup {
