@@ -80,7 +80,6 @@ for (let i = 0; i < (document.querySelectorAll('.click')).length; i++) {
 for (let i = 0; i < (document.querySelectorAll('.button-card')).length; i++) {
   let elem = document.querySelector('#card-one');
   let rect = elem.getBoundingClientRect();
-  console.log('top' + rect.top.toFixed());
   document.querySelectorAll('.button-card')[i] .addEventListener('click', buttonClicked); 
 }
 const closingCard = document.querySelector('#closing');
