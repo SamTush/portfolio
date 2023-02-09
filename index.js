@@ -1,12 +1,7 @@
-//General variables
-const openCard = document.querySelector('.button-one');
-const openCardTwo = document.querySelector('.button-two');
-const openCardThree = document.querySelector('.button-three');
-const openCardFour = document.querySelector('.button-four');
-const desktopClick = document.querySelector('.grid-item');
-var linkLive = 'https://samtush.github.io/Profolio-setup-and-mibile-first/';
-var linkSource = 'https://github.com/SamTush/Profolio-setup-and-mibile-first';
-//construstor for pop-up content 
+// General variables
+const linkLive = 'https://samtush.github.io/Profolio-setup-and-mibile-first/';
+const linkSource = 'https://github.com/SamTush';
+// construstor for pop-up content 
 class Content {
   constructor(title, image, buttonLive, buttonSource) {
     this.title = title;
@@ -15,35 +10,35 @@ class Content {
     this.buttonSource = buttonSource;
   }
 };
-var content1 = new Content(
+let content1 = new Content(
   'Tonic',
   'images/Snapshoot-Portfolio.png',
   linkLive,
   linkSource
 );
-var content2 = new Content(
+let content2 = new Content(
   'Mutli-post Stories',
   'images/Snapshoot-Portfolio2.png',
   linkLive,
   linkSource
 );
-var content3 = new Content(
+let content3 = new Content(
   'Tonic',
   'images/Snapshoot Portfolio3.png',
   linkLive,
   linkSource
 );
-var content4 = new Content(
+let content4 = new Content(
   'Multi-Post Stories',
   'images/Snapshoot Portfolio4.png',
   linkLive,
   linkSource
 ); 
 
-//variables to set appearance
+// variables to set appearance
 const sectionCard = document.querySelector('#portfolio');
 const cardSection = document.createElement('div');
-//Inner html for cards
+// Inner html for cards
 cardSection.innerHTML = `
 <div class="grid-container grid-item-center">
 <div id="card-one" class="grid-item grid-item-1" data-name="p-1">
@@ -168,9 +163,9 @@ cardSection.innerHTML = `
 </div>
 </div>
 `;
-//appending card and pop-up to html
+// appending card and pop-up to html
 sectionCard.appendChild(cardSection);
-//functions
+// functions
 function myFunction() {
   document.getElementById('show').style.display = 'block';
 }
@@ -189,18 +184,18 @@ function clickDesktop() {
   document.querySelector('.target-desktop').style.display = 'block';
 }
 document.getElementById('humburger').addEventListener('click', myFunction);
-//for loops
+// for loops
 for (let i = 0; i < (document.querySelectorAll('.click')).length; i++) {
   document.querySelectorAll('.click')[i].addEventListener('click', closeIcon);
 }
-//button array
+// button array
 const buttonArray = [
   document.querySelector('#button-one'),
   document.querySelector('#button-two'),
   document.querySelector('#button-three'),
   document.querySelector('#button-four')
 ];
-//through all button items
+// through all button items
 buttonArray.forEach((buttonItem, index)=>{
   const contentArray = [
     content1,
@@ -212,7 +207,7 @@ buttonArray.forEach((buttonItem, index)=>{
   buttonItem.addEventListener('click', ()=>{
     const popupCard = document.createElement('div');
     sectionCard.appendChild(popupCard);
-  //inner html for pop-up
+  // inner html for pop-up
   popupCard.innerHTML = `
   <!--popup mobile-->
   <div class="target-mobile">

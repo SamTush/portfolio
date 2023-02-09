@@ -178,16 +178,15 @@ ul {
   left: 0;
   min-height: 100vh;
   width: 100vw;
-  display: flex;
   align-items: center;
   justify-content: center;
   display: none;
 }
 
 .popup-card {
-  background-color: rgb(255, 255, 255, .6);
+  background-color: rgb(255, 255, 255, 0.6);
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   padding: 10px 20px;
 }
 
@@ -226,17 +225,41 @@ ul {
   gap: 14px;
 }
 
+button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #4853af;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
 .popup-button button {
   width: 146px;
   height: 48px;
   display: flex;
 }
 
+a .icon2 {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
 .popup-button .icon2 {
-  background-image: url(images/Icon-2.png); 
-  background-repeat: no-repeat;
-  background-position: right;
-  background-position: 113px;
+  background-image : url(images/Icon-2.png); 
+  background-repeat : no-repeat;
+  background-position : right;
+  background-position : 113px;
 }
 
 .popup-button .icon3 {
@@ -244,11 +267,6 @@ ul {
   background-repeat: no-repeat;
   background-position: right;
   background-position: 118px;
-}
-
-a .icon2 {
-  margin-left: 15px;
-  text-decoration: none;
 }
 
 .grid-item {
@@ -324,25 +342,6 @@ h4 {
   display: flex;
   flex-direction: row;
   margin-top: 15px;
-}
-
-button {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  margin-top: 24px;
-  margin-bottom: 10px;
-  padding: 12px;
-  border: 1px solid #4853af;
-  border-radius: 8px;
-  background-color: #fff;
 }
 
 .small-btn-div a {
