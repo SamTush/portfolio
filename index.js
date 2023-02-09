@@ -9,32 +9,31 @@ class Content {
     this.buttonLive = buttonLive;
     this.buttonSource = buttonSource;
   }
-};
-let content1 = new Content(
+}
+const content1 = new Content(
   'Tonic',
   'images/Snapshoot-Portfolio.png',
   linkLive,
-  linkSource
+  linkSource,
 );
-let content2 = new Content(
+const content2 = new Content(
   'Mutli-post Stories',
   'images/Snapshoot-Portfolio2.png',
   linkLive,
-  linkSource
+  linkSource,
 );
-let content3 = new Content(
+const content3 = new Content(
   'Tonic',
   'images/Snapshoot Portfolio3.png',
   linkLive,
-  linkSource
+  linkSource,
 );
-let content4 = new Content(
+const content4 = new Content(
   'Multi-Post Stories',
   'images/Snapshoot Portfolio4.png',
   linkLive,
-  linkSource
+  linkSource,
 ); 
-
 // variables to set appearance
 const sectionCard = document.querySelector('#portfolio');
 const cardSection = document.createElement('div');
@@ -172,16 +171,10 @@ function myFunction() {
 function closeIcon() {
   document.getElementById('show').style.display = 'none';
 }
-function buttonClicked() {
-  document.querySelector('.target-mobile').style.display = 'block';
-}
 function closeCard() {
   const remove = document.querySelector('.target-mobile');
   remove.style.display = 'none';
   sectionCard.removeChild(sectionCard.lastElementChild);
-}
-function clickDesktop() {
-  document.querySelector('.target-desktop').style.display = 'block';
 }
 document.getElementById('humburger').addEventListener('click', myFunction);
 // for loops
@@ -193,18 +186,18 @@ const buttonArray = [
   document.querySelector('#button-one'),
   document.querySelector('#button-two'),
   document.querySelector('#button-three'),
-  document.querySelector('#button-four')
+  document.querySelector('#button-four'),
 ];
 // through all button items
-buttonArray.forEach((buttonItem, index)=>{
+buttonArray.forEach((buttonItem, index) => {
   const contentArray = [
     content1,
     content2,
     content3,
-    content4
+    content4,
   ];
   const item = contentArray[index];
-  buttonItem.addEventListener('click', ()=>{
+  buttonItem.addEventListener('click', () => {
     const popupCard = document.createElement('div');
     sectionCard.appendChild(popupCard);
   // inner html for pop-up
@@ -260,6 +253,5 @@ buttonArray.forEach((buttonItem, index)=>{
   document.querySelector('.target-mobile').style.display = 'block';
   const cloCard = document.querySelector('.closePopup');
   cloCard.addEventListener('click', closeCard);
-  
   });
 });

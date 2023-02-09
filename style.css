@@ -186,13 +186,13 @@ ul {
 .popup-card {
   background-color: rgb(255, 255, 255, 0.6);
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   padding: 10px 20px;
 }
 
 .card-popup {
   background-color: #fff;
-  height: fit-content;
+  height: 100%;
   border-radius: 16px;
   padding: 18px 16px;
 }
@@ -212,7 +212,7 @@ ul {
 
 .popup-body img {
   width: 100%;
-  margin: 18px 0px;
+  margin: 18px 0;
 }
 
 .popup-body hr {
@@ -256,14 +256,14 @@ a .icon2 {
 }
 
 .popup-button .icon2 {
-  background-image : url(images/Icon-2.png); 
-  background-repeat : no-repeat;
-  background-position : right;
-  background-position : 113px;
+  background-image: url(images/Icon-2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: 113px;
 }
 
 .popup-button .icon3 {
-  background-image: url(images/Group.png); 
+  background-image: url(images/Group.png);
   background-repeat: no-repeat;
   background-position: right;
   background-position: 118px;
@@ -549,12 +549,6 @@ textarea {
   display: none !important;
 }
 
-.target-desktop {
-  display: flex;
-  justify-content: center;
-  display: none;
-}
-
 @media screen and (min-width: 768px) {
   body {
     width: 100%;
@@ -629,9 +623,8 @@ textarea {
   .popup-card {
     display: flex;
     width: 100%;
-    display: flex;
-    padding: 12px 0px;
-    background-color: rgb(255, 255, 255, .8);
+    padding: 12px 0;
+    background-color: rgb(255, 255, 255, 0.8);
   }
 
   .card-popup {
@@ -647,7 +640,7 @@ textarea {
   
   .popup-body img {
     width: 40%;
-    margin: 18px 0px;
+    margin: 18px 0;
   }
 
   .popup-body-desktop {
@@ -657,11 +650,11 @@ textarea {
 
   .p-div-desktop {
     width: 65%;
-    padding: 0px 34px 0px 0px;
+    padding: 0 34px 0 0;
   }
 
   .side {
-    padding: 0px 14px;
+    padding: 0 14px;
   }
 
   .desktop-image {
