@@ -225,6 +225,14 @@ ul {
   gap: 14px;
 }
 
+.popup-button:hover a {
+  color: #fff;
+}
+
+.popup-button a {
+  text-decoration: none;
+}
+
 button {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -639,7 +647,7 @@ textarea {
   }
 
   .popup-body img {
-    width: 40%;
+    height: 370px;
     margin: 18px 0;
   }
 
