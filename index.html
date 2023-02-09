@@ -130,27 +130,29 @@
                     built or a project that needs coding. I’d love to help with it
                 </p>
                 <div class="form-div">
-                    <form action="https://formspree.io/f/xvongqly" method="POST">
+                    <form  action="https://formspree.io/f/xvongqly" method="POST" id="form">
                         <ul>
                             <li>
                                 <label for="name" class="labels">name</label><br>
-                                <input type="text" id="fname" name="name" maxlength="30" placeholder="Name" required />
+                                <input type="text" id="name" name="name" maxlength="30" placeholder="Name"/>
                             </li>
                             <li>
                                 <label for="email" class="labels">email</label><br>
-                                <input type="email" id="lname" name="email" placeholder="E-mail" required />
+                                <input type="email" id="email" name="email" placeholder="E-mail"/>
                             </li>
                             <li>
                                 <label for="message" class="labels">message</label><br>
-                                <textarea name="text" id="text" cols="30" rows="6"
-                                    placeholder="Write your message here." maxlength="500" required></textarea>
+                                <textarea name="text" id="textarea" cols="30" rows="6"
+                                    placeholder="Write your message here." maxlength="500"></textarea>
+                            </li>
+                            <li id="error">
                             </li>
                             <li>
+                                <button type="submit"><a>Get In Touch</a></button>
                             </li>
                         </ul>
                     </form>
                 </div>
-                <button><a>Get In Touch</a></button>
             </div>
         </div>
     </footer>
