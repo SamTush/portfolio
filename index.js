@@ -5,13 +5,15 @@ const openCardThree = document.querySelector('.button-three');
 const openCardFour = document.querySelector('.button-four');
 const desktopClick = document.querySelector('.grid-item');
 var linkLive = 'https://samtush.github.io/Profolio-setup-and-mibile-first/';
-var linkSource = 'https://github.com/SamTush/Profolio-setup-and-mibile-first#live-demo';
+var linkSource = 'https://github.com/SamTush/Profolio-setup-and-mibile-first';
 //construstor for pop-up content 
-function Content (title, image, buttonLive, buttonSource) {
-  this.title = title;
-  this.image = image;
-  this.buttonLive = buttonLive;
-  this.buttonSource = buttonSource;
+class Content {
+  constructor(title, image, buttonLive, buttonSource) {
+    this.title = title;
+    this.image = image;
+    this.buttonLive = buttonLive;
+    this.buttonSource = buttonSource;
+  }
 };
 var content1 = new Content(
   'Tonic',
@@ -37,6 +39,7 @@ var content4 = new Content(
   linkLive,
   linkSource
 ); 
+
 //variables to set appearance
 const sectionCard = document.querySelector('#portfolio');
 const cardSection = document.createElement('div');
@@ -178,7 +181,9 @@ function buttonClicked() {
   document.querySelector('.target-mobile').style.display = 'block';
 }
 function closeCard() {
-  document.querySelector('.target-mobile').style.display = 'none';
+  const remove = document.querySelector('.target-mobile');
+  remove.style.display = 'none';
+  sectionCard.removeChild(sectionCard.lastElementChild);
 }
 function clickDesktop() {
   document.querySelector('.target-desktop').style.display = 'block';
@@ -231,8 +236,7 @@ buttonArray.forEach((buttonItem, index)=>{
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essent
+                        of type and scrambled it to make a type specimen book.
                     </p>
                 </div>
                 <div class="side">
@@ -248,8 +252,8 @@ buttonArray.forEach((buttonItem, index)=>{
                     </ul>
                     <hr>
                     <div class="popup-button">
-                        <button class="icon2"><a>See live</a></button>
-                        <button class="icon3"><a>See Source</a></button>
+                        <button class="icon2"><a href="${item.buttonLive}">See live</a></button>
+                        <button class="icon3"><a href="${item.buttonSource}">See Source</a></button>
                     </div>
                 </div>
             </div>
