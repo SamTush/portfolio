@@ -496,12 +496,18 @@ section {
 }
 
 /* contact */
-.contact {
-  background-image: url('images/contact.png'), url('images/Contact-me.png');
-  background-position: right top, left top;
-  background-size: 300px, 100%;
-  background-repeat: no-repeat, no-repeat;
+footer {
   background-color: #fff;
+}
+
+.contact {
+  background-image: url('images/contact.png');
+  background-position: right;
+  background-position-y: 40px;
+  background-size: 260px;
+  background-repeat: no-repeat;
+  background-color: #39439b;
+  border-top-left-radius: 65px;
 }
 
 .text-contact {
@@ -555,6 +561,11 @@ textarea {
 
 .labels {
   display: none !important;
+}
+
+#error {
+  color: #f32013;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (min-width: 768px) {
