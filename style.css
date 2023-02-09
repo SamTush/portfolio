@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #e5e5e5;
-  width: 375px;
+  width: 100%;
 }
 
 h1 {
@@ -81,14 +81,48 @@ ul {
   align-items: center;
 }
 
+.hidden-menu {
+  background-color: #396df2;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  opacity: 95%;
+  display: none;
+}
+
+.close {
+  display: flex;
+  justify-content: end;
+  padding: 20px 26px;
+}
+
+.menu-1,
+.menu-2,
+.menu-3 {
+  padding: 16px;
+}
+
+.hidden-menu a {
+  font-family: 'popping', sans-serif;
+  font-weight: 500;
+  font-size: 38px;
+  color: #fff;
+  line-height: 44px;
+  text-decoration: none;
+  margin-left: 18px;
+}
+
 .box2 {
   display: flex;
   flex-direction: column;
   gap: 12px;
   background-color: #fff;
   background-image: url(images/header-shapes-mobile.svg);
+  background-size: 100%;
   height: 587.15px;
   padding: 144px 24px;
+  background-repeat: no-repeat;
   border-bottom-left-radius: 65px;
 }
 
@@ -97,7 +131,7 @@ ul {
   font-weight: 600;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #2233ca;
 }
 
 .h1 {
@@ -110,7 +144,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #3d437a;
 }
 
 .icon {
@@ -130,11 +164,123 @@ ul {
   flex-direction: column;
   background-color: #e5e5e5;
   padding: 0 24px;
+  position: relative;
 }
 
 .grid-container {
   display: grid;
   grid-auto-rows: minmax(552px, auto);
+}
+
+.target-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.popup-card {
+  background-color: rgb(255, 255, 255, 0.6);
+  width: 100vw;
+  height: 100vh;
+  padding: 10px 20px;
+}
+
+.card-popup {
+  background-color: #fff;
+  height: 100%;
+  border-radius: 16px;
+  padding: 18px 16px;
+}
+
+.popup-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.popup-header img {
+  height: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 15px;
+}
+
+.popup-body img {
+  width: 100%;
+  margin: 18px 0;
+}
+
+.popup-body hr {
+  margin-top: 12px;
+  opacity: 30%;
+}
+
+.popup-button {
+  display: flex;
+  gap: 14px;
+}
+
+.popup-button a {
+  text-decoration: none;
+}
+
+.small-btn-div a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #39439b;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #4853af;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.popup-button button {
+  width: 146px;
+  height: 48px;
+  display: flex;
+}
+
+a .icon2 {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.popup-button .icon2 {
+  background-image: url(images/Icon-2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: 113px;
+}
+
+.popup-button .icon3 {
+  background-image: url(images/Group.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: 118px;
 }
 
 .grid-item {
@@ -181,7 +327,7 @@ h2 {
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #4b5363;
 }
 
 .dot {
@@ -212,35 +358,6 @@ h4 {
   margin-top: 15px;
 }
 
-button {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  margin-top: 24px;
-  margin-bottom: 10px;
-  padding: 12px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  background-color: #fff;
-}
-
-.small-btn-div a {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-}
-
 .small-btn {
   display: flex;
   flex-direction: row;
@@ -262,7 +379,7 @@ button:focus {
 }
 
 button:hover {
-  background-color: #6070ff;
+  background-color: #39439b;
   color: #fff;
 }
 
@@ -356,6 +473,10 @@ section {
   color: #253858;
 }
 
+.popup-button:hover a {
+  color: #fff;
+}
+
 .frame {
   display: flex;
   flex-direction: column;
@@ -378,7 +499,7 @@ section {
 .contact {
   background-image: url('images/contact.png'), url('images/Contact-me.png');
   background-position: right top, left top;
-  background-size: 280px, auto;
+  background-size: 300px, 100%;
   background-repeat: no-repeat, no-repeat;
   background-color: #fff;
 }
@@ -430,6 +551,10 @@ textarea {
   margin: 8px 0;
   padding: 15px 38px 15px 16px;
   font-family: 'Poppins', sans-serif;
+}
+
+.labels {
+  display: none !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -497,6 +622,49 @@ textarea {
     width: 569px;
   }
 
+  .target-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .popup-card {
+    display: flex;
+    width: 100%;
+    padding: 12px 0;
+    background-color: rgb(255, 255, 255, 0.8);
+  }
+
+  .card-popup {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 18px 16px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .popup-body img {
+    height: 370px;
+    margin: 18px 0;
+  }
+
+  .popup-body-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .p-div-desktop {
+    width: 65%;
+    padding: 0 34px 0 0;
+  }
+
+  .side {
+    padding: 0 14px;
+  }
+
   .desktop-image {
     display: flex !important;
     height: 448px;
@@ -514,9 +682,14 @@ textarea {
     display: grid;
   }
 
-  #reverse {
+  #reverse-one,
+  #reverse-two {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  .labels {
+    display: none !important;
   }
 
   footer button {
@@ -555,6 +728,15 @@ textarea {
     display: grid;
     grid-template-columns: auto auto;
     gap: 12px;
+    justify-content: center;
+    max-width: 1209px;
+  }
+
+  .grid-item-center {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .card-box {
@@ -615,6 +797,8 @@ textarea {
   .about {
     margin-top: 114px;
     padding-bottom: 114px;
+    display: flex;
+    justify-content: center;
   }
 
   /** contact form **/
@@ -624,7 +808,7 @@ textarea {
     background-position: right top;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: #6070ff;
+    background-color: #39439b;
     height: 746px;
     border-top-left-radius: 65px;
     display: flex;
