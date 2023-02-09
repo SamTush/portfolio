@@ -225,12 +225,18 @@ ul {
   gap: 14px;
 }
 
-.popup-button:hover a {
-  color: #fff;
-}
-
 .popup-button a {
   text-decoration: none;
+}
+
+.small-btn-div a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #39439b;
 }
 
 button {
@@ -352,16 +358,6 @@ h4 {
   margin-top: 15px;
 }
 
-.small-btn-div a {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #39439b;
-}
-
 .small-btn {
   display: flex;
   flex-direction: row;
@@ -475,6 +471,10 @@ section {
   display: flex;
   align-items: center;
   color: #253858;
+}
+
+.popup-button:hover a {
+  color: #fff;
 }
 
 .frame {
