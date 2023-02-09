@@ -262,29 +262,29 @@ const textMessage = document.querySelector('#textarea');
 const form = document.querySelector('#form');
 const errorMessage = document.querySelector('#error');
 form.addEventListener('submit', (e) => {
-    let messages = [];
-    let x = 0;
-    if (nameForm.value === '' || nameForm.value == null) {
-       messages.push('Name is required'); 
-       x += 1;
-    }
-    if (emailForm.value === '' || emailForm.value == null) {
-        messages.push('email is required');
-        x += 1;
-    }
-    if (emailForm.value !== emailForm.value.toLowerCase()) {
-        messages.push('*Email should be lowercase');
-    }
-    if (textMessage.value.length <= 6) {
-        messages.push('Message should have more than 6 charaters');
-        x += 1;
-    }
-    if (x >= 1) {
-        messages.push('* Form not sent *')
-    }
-    if (messages.length > 0) {
-        e.preventDefault();
-        e.stopPropagation();
-        errorMessage.innerHTML = messages.join(',<br> ');
-    }
+  const messages = [];
+  let x = 0;
+  if (nameForm.value === '' || nameForm.value == null) {
+    messages.push('Name is required');
+    x += 1;
+  }
+  if (emailForm.value === '' || emailForm.value == null) {
+    messages.push('email is required');
+    x += 1;
+  }
+  if (emailForm.value !== emailForm.value.toLowerCase()) {
+    messages.push('*Email should be lowercase');
+  }
+  if (textMessage.value.length <= 6) {
+    messages.push('Message should have more than 6 charaters');
+    x += 1;
+  }
+  if (x >= 1) {
+    messages.push('* Form not sent *')
+  }
+  if (messages.length > 0) {
+    e.preventDefault();
+    e.stopPropagation();
+    errorMessage.innerHTML = messages.join(',<br> ');
+  }
 });
