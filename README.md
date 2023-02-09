@@ -60,13 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<<<<<<< desktop-version-completed
-> Add a link to your deployed project.
-
-- [Live Demo Link]https://samtush.github.io/Profolio-setup-and-mibile-first/
-=======
 - [Live Demo Link](https://samtush.github.io/Profolio-setup-and-mibile-first/)
->>>>>>> main
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
