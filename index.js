@@ -178,7 +178,7 @@ function closeCard() {
 }
 document.getElementById('humburger').addEventListener('click', myFunction);
 // for loops
-for (let i = 0; i < (document.querySelectorAll('.click')).length; i+=1) {
+for (let i = 0; i < (document.querySelectorAll('.click')).length; i += 1) {
   document.querySelectorAll('.click')[i].addEventListener('click', closeIcon);
 }
 // button array
