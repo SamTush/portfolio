@@ -280,7 +280,7 @@ form.addEventListener('submit', (e) => {
     x += 1;
   }
   if (x >= 1) {
-    messages.push('* Form not sent *')
+    messages.push('* Form not sent *');
   }
   if (messages.length > 0) {
     e.preventDefault();
