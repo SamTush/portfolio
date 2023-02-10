@@ -261,7 +261,6 @@ const emailForm = document.querySelector('#email');
 const textMessage = document.querySelector('#textarea');
 const form = document.querySelector('#form');
 const errorMessage = document.querySelector('#error');
-const formInput = [];
 form.addEventListener('submit', (e) => {
   const messages = [];
   let x = 0;
@@ -290,21 +289,21 @@ form.addEventListener('submit', (e) => {
   }
 });
 form.addEventListener('input', () => {
-    const setValue = {
-        name: nameForm.value,
-        email: emailForm.value,
-        message: textMessage.value
-    }
-    localStorage.setItem('storedDate', JSON.stringify(setValue));
+  const setValue = {
+    name: nameForm.value,
+    email: emailForm.value,
+    message: textMessage.value,
+  };
+  localStorage.setItem('storedDate', JSON.stringify(setValue));
 });
 
 let itemsBe = JSON.parse(localStorage.getItem('storedDate'));
-if(!itemsBe){
-    itemsBe = {
-        name: '',
-        email: '',
-        message: '',
-    };
+if (!itemsBe) {
+  itemsBe = {
+    name: '',
+    email: '',
+    message: '',
+  };
 }
 
 nameForm.value = itemsBe.name;
