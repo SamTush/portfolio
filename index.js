@@ -261,6 +261,7 @@ const emailForm = document.querySelector('#email');
 const textMessage = document.querySelector('#textarea');
 const form = document.querySelector('#form');
 const errorMessage = document.querySelector('#error');
+const formInput = [];
 form.addEventListener('submit', (e) => {
   const messages = [];
   let x = 0;
@@ -288,3 +289,24 @@ form.addEventListener('submit', (e) => {
     errorMessage.innerHTML = messages.join(',<br> ');
   }
 });
+form.addEventListener('input', () => {
+    const setValue = {
+        name: nameForm.value,
+        email: emailForm.value,
+        message: textMessage.value
+    }
+    localStorage.setItem('storedDate', JSON.stringify(setValue));
+});
+
+let itemsBe = JSON.parse(localStorage.getItem('storedDate'));
+if(!itemsBe){
+    itemsBe = {
+        name: '',
+        email: '',
+        message: '',
+    };
+}
+
+nameForm.value = itemsBe.name;
+emailForm.value = itemsBe.email;
+textMessage.value = itemsBe.message;
