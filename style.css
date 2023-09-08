@@ -40,6 +40,10 @@ p {
   color: #344563;
 }
 
+.sum {
+  line-height: 1.4em;
+}
+
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
@@ -113,6 +117,19 @@ ul {
   margin-left: 18px;
 }
 
+.nav-links {
+  color: #000;
+  text-decoration: none;
+}
+
+.link-resume {
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+
 .box2 {
   display: flex;
   flex-direction: column;
@@ -120,8 +137,7 @@ ul {
   background-color: #fff;
   background-image: url(images/header-shapes-mobile.svg);
   background-size: 100%;
-  height: 587.15px;
-  padding: 144px 24px;
+  padding: 80px 24px;
   background-repeat: no-repeat;
   border-bottom-left-radius: 65px;
 }
@@ -441,7 +457,17 @@ section {
 .lang {
   display: flex;
   flex-direction: column;
-  margin-top: 36px;
+  margin-top: 16px;
+}
+
+.tailwind {
+  width: 40px;
+  margin-left: 0;
+}
+
+.button-one {
+  text-decoration: none;
+  color: #396df2;
 }
 
 .javascript img,
@@ -459,7 +485,6 @@ section {
   background-color: #f7f7f9;
   padding: 9px 12px;
   border-radius: 8px;
-  margin-bottom: 12px;
 }
 
 .lang a {

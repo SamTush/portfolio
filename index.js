@@ -11,13 +11,13 @@ class Content {
   }
 }
 const content1 = new Content(
-  'Tonic',
+  'GameZone',
   'images/Snapshoot-Portfolio.png',
   linkLive,
   linkSource,
 );
 const content2 = new Content(
-  'Mutli-post Stories',
+  'GameZone',
   'images/Snapshoot-Portfolio2.png',
   linkLive,
   linkSource,
@@ -42,17 +42,17 @@ cardSection.innerHTML = `
 <div class="grid-container grid-item-center">
 <div id="card-one" class="grid-item grid-item-1" data-name="p-1">
     <div class="card-box">
-        <img class="mobile-image" src="images/Snapshoot-Portfolio.png" alt="Snapshoot-Portfolio" srcset="">
-        <img class="desktop-image" src="images/Snapshoot-PortfolioD.png" alt="Snapshoot-PortfolioD"
+        <img class="mobile-image" src="images/gamezone.png" style="width: 100%;" alt="Snapshoot-Portfolio" srcset="">
+        <img class="desktop-image" style="height: 20rem;" src="images/gamezone.png" alt="Snapshoot-PortfolioD"
             srcset="">
     </div>
     <div class="text-box">
-        <h2>Tonic</h2>
+        <h2>GameZone</h2>
         <div class="canopy">
-            <h4>CANOPY</h4>
+            <h4>GameZone</h4>
             <ul class="back">
-                <li><img class="dot" src="images/Counter.png" alt="dot">Back End Dev</li>
-                <li><img class="dot" src="images/Counter.png" alt="dot">2015</li>
+                <li><img class="dot" src="images/Counter.png" alt="dot">Front end Dev</li>
+                <li><img class="dot" src="images/Counter.png" alt="dot">2023</li>
             </ul>
         </div>
         <div>
@@ -61,11 +61,12 @@ cardSection.innerHTML = `
             </p>
         </div>
         <ul class="small-btn-div">
-            <li class="small-btn"><a>html</a></li>
-            <li class="small-btn"><a>css</a></li>
-            <li class="small-btn"><a>javaScript</a></li>
+            <li class="small-btn"><a>React</a></li>
+            <li class="small-btn"><a>Redux</a></li>
+            <li class="small-btn"><a>SCSS</a></li>
         </ul>
-        <button id="button-one" class="button-card button-one"><a>See Project</a></button>
+        <button id="button-one" class="button-card button-one"><a class="button-one" href="https://game-zone.onrender.com/">See Project</a></button>
+        <button id="button-one" class="button-card button-one"><a class="button-one" href="https://github.com/SamTush/gamezone">Github</a></button>
     </div>
 </div>
 <div id="reverse-one card-two" class="grid-item grid-item-2 row-reverse" data-name="p-2">
@@ -76,26 +77,27 @@ cardSection.innerHTML = `
             srcset="">
     </div>
     <div class="text-box">
-        <h2>Multi-Post<br>Stories</h2>
+        <h2>Budget</h2>
         <div class="canopy">
-            <h4>CANOPY</h4>
+            <h4>Budget</h4>
             <ul class="back">
-                <li><img class="dot" src="images/Counter.png" alt="dot">Back End Dev</li>
-                <li><img class="dot" src="images/Counter.png" alt="dot">2015</li>
+                <li><img class="dot" src="images/Counter.png" alt="dot">Full stack</li>
+                <li><img class="dot" src="images/Counter.png" alt="dot">2023</li>
             </ul>
         </div>
         <div>
             <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required.
+              Budget is a mobile web application where you can manage your budget.
             </p>
         </div>
         <ul class="small-btn-div">
             <li class="small-btn"><a>html</a></li>
             <li class="small-btn small-btn-dis"><a>Ruby on rails</a></li>
-            <li class="small-btn"><a>css</a></li>
+            <li class="small-btn"><a>TailwindCSS</a></li>
             <li class="small-btn"><a>javaScript</a></li>
         </ul>
-        <button id="button-two" class="button-card button-two"><a>See Project</a></button>
+        <button id="button-one" class="button-card button-one"><a class="button-one" href="https://budget-ower.onrender.com">See Project</a></button>
+        <button id="button-one" class="button-card button-one"><a class="button-one" href="https://github.com/SamTush/budget">Github</a></button>
     </div>
 </div>
 <div id="card-three" class="grid-item grid-item-3" data-name="p-3">
@@ -106,10 +108,10 @@ cardSection.innerHTML = `
             srcset="">
     </div>
     <div class="text-box">
-        <h2 class="mobile">Tonic</h2>
-        <h2 class="desktop">Facebook 360</h2>
+        <h2 class="mobile">BookFlix</h2>
+        <h2 class="desktop">BookFlix</h2>
         <div class="canopy">
-            <h4>CANOPY</h4>
+            <h4>BookFlix</h4>
             <ul class="back">
                 <li><img class="dot" src="images/Counter.png" alt="dot">Back End Dev</li>
                 <li><img class="dot" src="images/Counter.png" alt="dot">2015</li>
@@ -117,16 +119,17 @@ cardSection.innerHTML = `
         </div>
         <div>
             <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required.
+              Movie is a platform where users can book tickets to movie premieres, cancel a booking, see the details of a premiere, and rate the premiere.
             </p>
         </div>
         <ul class="small-btn-div">
-            <li class="small-btn"><a>html</a></li>
+            <li class="small-btn"><a>React</a></li>
             <li class="small-btn small-btn-dis"><a>Ruby on rails</a></li>
-            <li class="small-btn"><a>css</a></li>
-            <li class="small-btn"><a>javaScript</a></li>
+            <li class="small-btn"><a>TailwindCSS</a></li>
+            <li class="small-btn"><a>PostgreSQL</a></li>
         </ul>
-        <button id="button-three" class="button-card button-three"><a>See Project</a></button>
+        <button id="button-one" class="button-card button-one"><a class="button-one" href="https://book-flix-frontend.vercel.app/">See Project</a></button>
+        <button id="button-one" class="button-card button-one"><a class="button-one" href="https://github.com/Lucas-Erkana/BookFlix-Backend">Github</a></button>
     </div>
 </div>
 <div id="reverse-two" class="grid-item grid-item-4"  data-name="p-4">
@@ -137,28 +140,29 @@ cardSection.innerHTML = `
             srcset="">
     </div>
     <div class="text-box">
-        <h2 class="mobile">Multi-Post<br>Stories</h2>
-        <h2 class="desktop">Uber Navigation</h2>
+        <h2 class="mobile">Startup Battlefield</h2>
+        <h2 class="desktop">Startup Battlefield</h2>
         <div class="canopy">
-            <h4>CANOPY</h4>
+            <h4>Startup Battlefield</h4>
             <ul class="back">
-                <li><img class="dot" src="images/Counter.png" alt="dot">Back End Dev</li>
-                <li><img class="dot" src="images/Counter.png" alt="dot">2015</li>
+                <li><img class="dot" src="images/Counter.png" alt="dot">Front End Dev</li>
+                <li><img class="dot" src="images/Counter.png" alt="dot">2023</li>
             </ul>
         </div>
         <div>
             <p>
-                A daily selection of privately personalized reads; no accounts or sign-ups required.
+              This is a clone page of StartUp-Battlefield, a hackathon to build technologies for a sustainable growth to foster transparency and long-termism in financial and economic activity.
             </p>
         </div>
         <ul class="small-btn-div">
             <li class="small-btn"><a>html</a></li>
-            <li class="small-btn small-btn-dis"><a>Ruby on rails</a></li>
             <li class="small-btn"><a>css</a></li>
             <li class="small-btn"><a>javaScript</a></li>
+            <li class="small-btn"><a>Bootstrap</a></li>
         </ul>
-        <button id="button-four" class="button-card button-four"><a>See Project</a></button>
-    </div>
+        <button id="button-one" class="button-card button-one"><a class="button-one" href="https://samtush.github.io/startup-battlefield/">See Project</a></button>
+        <button id="button-one" class="button-card button-one"><a class="button-one" href="https://github.com/SamTush/startup-battlefield">Github</a></button>
+    </div>  
 </div>
 </div>
 `;
