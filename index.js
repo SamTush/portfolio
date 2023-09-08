@@ -43,7 +43,7 @@ cardSection.innerHTML = `
 <div id="card-one" class="grid-item grid-item-1" data-name="p-1">
     <div class="card-box">
         <img class="mobile-image" src="images/gamezone.png" style="width: 100%;" alt="Snapshoot-Portfolio" srcset="">
-        <img class="desktop-image" style="height: 20rem;" src="images/gamezone.png" alt="Snapshoot-PortfolioD"
+        <img class="desktop-image" src="images/gamezone.png" alt="Snapshoot-PortfolioD"
             srcset="">
     </div>
     <div class="text-box">
@@ -69,12 +69,12 @@ cardSection.innerHTML = `
         <button id="button-one" class="button-card button-one"><a class="button-one" href="https://github.com/SamTush/gamezone">Github</a></button>
     </div>
 </div>
-<div id="reverse-one card-two" class="grid-item grid-item-2 row-reverse" data-name="p-2">
+<div id="reverse-two" class="grid-item grid-item-4"  data-name="p-4">
     <div class="card-box">
-        <img class="mobile-image" src="images/Snapshoot-Portfolio2.png" alt="Snapshoot-Portfolio2"
-            srcset="">
-        <img class="desktop-image" src="images/Snapshoot-Portfolio3.png" alt="Snapshoot-Portfolio3"
-            srcset="">
+        <img class="mobile-image" src="images/budget-mobile.png" alt="Snapshoot-Portfolio2"
+        srcset="">
+        <img class="desktop-image" src="images/budget.png" alt="Snapshoot-Portfolio3"
+        srcset="">
     </div>
     <div class="text-box">
         <h2>Budget</h2>
@@ -98,13 +98,13 @@ cardSection.innerHTML = `
         </ul>
         <button id="button-one" class="button-card button-one"><a class="button-one" href="https://budget-ower.onrender.com">See Project</a></button>
         <button id="button-one" class="button-card button-one"><a class="button-one" href="https://github.com/SamTush/budget">Github</a></button>
-    </div>
+    </div>  
 </div>
 <div id="card-three" class="grid-item grid-item-3" data-name="p-3">
     <div class="card-box">
-        <img class="mobile-image" src="images/Snapshoot Portfolio3.png" alt="Snapshoot-Portfolio5"
+        <img class="mobile-image" src="images/bookflix-mobile.png" alt="Snapshoot-Portfolio5"
             srcset="">
-        <img class="desktop-image" src="images/Snapshoot-Portfolio4.png" alt="Snapshoot-Portfolio6"
+        <img class="desktop-image" src="images/bookflix.png" alt="Snapshoot-Portfolio6"
             srcset="">
     </div>
     <div class="text-box">
@@ -113,8 +113,8 @@ cardSection.innerHTML = `
         <div class="canopy">
             <h4>BookFlix</h4>
             <ul class="back">
-                <li><img class="dot" src="images/Counter.png" alt="dot">Back End Dev</li>
-                <li><img class="dot" src="images/Counter.png" alt="dot">2015</li>
+                <li><img class="dot" src="images/Counter.png" alt="dot">Full stack</li>
+                <li><img class="dot" src="images/Counter.png" alt="dot">2023</li>
             </ul>
         </div>
         <div>
@@ -134,9 +134,9 @@ cardSection.innerHTML = `
 </div>
 <div id="reverse-two" class="grid-item grid-item-4"  data-name="p-4">
     <div class="card-box">
-        <img class="mobile-image" src="images/Snapshoot Portfolio4.png" alt="Snapshoot-Portfolio7"
+        <img class="mobile-image" src="images/startup-mobile.png" alt="Snapshoot-Portfolio7"
             srcset="">
-        <img class="desktop-image" src="images/Snapshoot-Portfolio5.png" alt="Snapshoot-Portfolio8"
+        <img class="desktop-image" src="images/startup.png" alt="Snapshoot-Portfolio8"
             srcset="">
     </div>
     <div class="text-box">
