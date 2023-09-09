@@ -39,7 +39,7 @@ const sectionCard = document.querySelector('#portfolio');
 const cardSection = document.createElement('div');
 // Inner html for cards
 cardSection.innerHTML = `
-<div class="grid-container grid-item-center">
+<div class="grid-container project-grid grid-item-center">
 <div id="card-one" class="grid-item grid-item-1" data-name="p-1">
     <div class="card-box">
         <img class="mobile-image" src="images/gamezone.png" style="width: 100%;" alt="Snapshoot-Portfolio" srcset="">

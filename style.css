@@ -188,6 +188,12 @@ ul {
   grid-auto-rows: minmax(552px, auto);
 }
 
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .target-mobile {
   position: fixed;
   top: 0;
